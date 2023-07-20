@@ -10,5 +10,8 @@ jobs:
 
     steps:
       - run: echo "Hello World"
-      - run: echo "Hello World 2"
+
+      - run: ls -l
+      - uses: actions/checkout@v2
+      - run: ls -l
       
